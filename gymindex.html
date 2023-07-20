@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <!-- bootstrapcss -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style5.css">
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+          <div class="container container1">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+             
+              <div class="contact_nav" id="shwet">
+                <ul class="navbar-nav">
+                  <li class="nav-item shwet-item">
+                    <a class="nav-link" href="service.html">
+                      <img src="images/location.png" alt="" />
+                      <span>Location</span>
+                    </a>
+                  </li>
+                  <li class="nav-item shwet-item">
+                    <a class="nav-link" href="service.html">
+                      <img src="images/call.png" alt="" />
+                      <span>Call :+91 9689363795</span>
+                    </a>
+                  </li>
+                  <li class="nav-item shwet-item">
+                    <a class="nav-link" href="service.html">
+                      <img src="images/envelope.png" alt="" />
+                      <span>patilshwetesh5510@gmail.com</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+    
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- navbar-stat -->
+    <nav class="navbar keep navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="data:image/jpeg;base64,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" alt="gym logo" height="50vh" width="50vw" <span> Shwet-Gym </span> 
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item jack">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+
+
+
+              <li class="nav-item jack">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+
+
+              <li class="nav-item jack">
+                <a class="nav-link active" aria-current="page" href="#services">Our services</a>
+              </li>
+              
+
+
+              <li class="nav-item jack">
+                <a class="nav-link active" aria-current="page" href="#contact">contact us</a>
+              </li>
+
+
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">login</a>
+              </li> -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MEMBERSHIP
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">SILVER</a></li>
+                  <li><a class="dropdown-item" href="#">GOLE</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">PLATINUM</a></li>
+                </ul>
+              </li>
+            
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar-ends -->
+
+
+    
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" id="home">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://wallpapercave.com/wp/wp2356164.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="color: yellow;">
+              Get Your Body
+            </h2>
+            <h1 style="color: white;">
+              Fitness Here
+            </h1>
+            <p style="color: white;">
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p> 
+
+  <div class="btn-box">
+                        <a href="" class="btn-1">
+                          Read More
+                        </a>
+                        <a href="" class="btn-2">
+                          Get A Quote
+                        </a>
+                      </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://wallpapercave.com/wp/wp2639574.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+           
+            <h2 style="color: yellow;">
+              Get Your Body
+            </h2>
+            <h1 style="color: white;">
+              Fitness Here
+            </h1>
+            <p style="color: white;">
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p> 
+
+  <div class="btn-box">
+                        <a href="" class="btn-1">
+                          Read More
+                        </a>
+                        <a href="" class="btn-2">
+                          Get A Quote
+                        </a>
+                      </div>
+
+
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://wallpapercave.com/wp/wp2639543.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            
+
+            <h2 style="color: yellow;">
+              Get Your Body
+            </h2>
+            <h1 style="color: white;">
+              Fitness Here
+            </h1>
+            <p style="color: white;">
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p> 
+
+  <div class="btn-box">
+                        <a href="" class="btn-1">
+                          Read More
+                        </a>
+                        <a href="" class="btn-2">
+                          Get A Quote
+                        </a>
+                      </div>
+
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- About gym details start -->
+
+    <div class="container container-tool" id="about">
+      <h1 class="text-center my-5 text"><b><u style="text-decoration-color: yellow;">About Shwet-Gym</u></b></h1>
+      <div class="row"><img src="https://images-na.ssl-images-amazon.com/images/I/51u8f5IesyL.png" alt="" height="500vh" width="0vw" >
+
+        <div class="col-12">
+          <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; word-spacing: .5rem;"> In 1977, shwet's Gym Received International Attention When It Was Featured In The Movie Pumping Iron That Starred Arnold Schwarzenegger And Lou Ferrigno. From That First Gym In Venice, shwet's Gym Has Become The Largest Co-Ed Gym Chain In The World With Over 700+ Clubs In 27 Countries. Today, shwet's Gym Has Expanded Its Fitness Profile To Offer All Of The Latest Equipment And Services, Including Group Exercise, Personal Training, Cardiovascular Equipment, Spinning, And Yoga, While Maintaining Its Core Weight Lifting Tradition. </p>
+          <div class="one ">
+            <button type="button" class="btn btn-dark btn-sm">Read more</button>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+     <!-- Our services start -->
+
+
+
+     <div class="container" id="services">
+      <h1 class="text-center  my-5" ><b><u style="text-decoration-color: yellow;">Our services</u></b></h1>
+      <div class="row">
+        <div class="col-md-6 left"><img src="  https://i.pinimg.com/originals/c1/4e/05/c14e0572f29fa5fab0e11a4298d64f85.jpg" alt="" height="325vh" width="425vw">
+        <h5 class="right5">cross-fit training</h5></div>
+
+
+
+
+
+        <div class="col-md-6 right"><img src="https://img.freepik.com/free-photo/sports-couple-sportswear-training-gym_1157-30542.jpg?size=626&ext=jpg" alt="" height="325vh" width="425vw"></div>
+      </div><br><br>
+
+
+
+
+
+      <div class="row">
+        <div class="col-md-6 left"><img src="https://th.bing.com/th/id/OIP.Z7jC938q_8iDqNcGKXZ2ywHaFw?pid=ImgDet&rs=1" alt="" height="325vh" width="425vw">
+        <h5 class="right5">cross-fit training</h5></div>
+
+
+
+
+
+        <div class="col-md-6 right"><img src="https://i1.wp.com/airforce-pt.com/wp-content/uploads/2018/12/160825-F-HX271-237.jpg?fit=800%2C532&ssl=1" alt="" height="325vh" width="425vw"></div>
+      </div><br><br>
+
+
+
+      <div class="row">
+        <div class="col-md-6 left"><img src=" https://image.freepik.com/free-photo/back-view-woman-with-hair-pony-tail-doing-workout-tightening-bar-gym_116317-960.jpg" alt="" height="325vh" width="425vw">
+        <h5 class="right5">cross-fit training</h5></div>
+
+
+
+
+
+        <div class="col-md-6 right"><img src="https://www.houstonmera.com/wp-content/uploads/2021/04/young-fitness-man-studio-1536x1022.jpg" alt="" height="325vh" width="425vw"></div>
+      </div>
+
+     </div>
+ <!-- why choose us starts  -->
+ <div class="container goback">
+  <h1 class="text-center my-5"><u style="text-decoration-color: yellow;">Why Choose Us</u></h1>
+  <div class="row night">
+    <div class="col-md-3 run"> 
+      <img src="https://static.thenounproject.com/png/52212-200.png" alt="" height="50px" width="50px">
+      <h5 class="kite">
+      QUALITY EQUIPMENT
+    </h5>
+    <p>
+      ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    </p></div>
+    <div class="col-md-3 run"> 
+      <img src="https://cdn1.iconfinder.com/data/icons/food-solid-icons-volume-3-1/128/114-512.png" alt="" height="50px" width="50px">
+      <h5>
+      NUTRITION PLAN
+    </h5>
+    <p>
+      ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    </p></div>
+    <div class="col-md-3 run"> 
+      <img src="https://cdn1.iconfinder.com/data/icons/fitness-56/300/shower-gym-fitness-sport-1024.png" alt=""height="50px" width="50px">
+      <h5>
+      SHOWER SERVICE
+    </h5>
+    <p>
+      ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    </p></div>
+    <div class="col-md-3 run">
+      <img src="https://cdn0.iconfinder.com/data/icons/interior-design-3/128/iStar_Design_Interior_Design_LineIcons_Live-95-512.png" alt="" height="50px" width="50px">
+      <h5>
+        UNIQUE TO YOUR NEEDS
+      </h5>
+      <p>
+        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      </p>
+    </div>
+  </div>
+   
+ </div>
+ <!-- contact us start -->
+ <div class="container" id="contact">
+  <h1 class="text-center my-5"><u style="text-decoration-color: yellow;">Contact Us</u></h1>
+  <div class="row">
+    <div class="col-md-6 dox"> <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" >
+      
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="number">Mobile number</label>
+        <input type="tel" class="number" id="number" maxlength="10">
+      </div>
+     
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Message</label>
+      </div>
+
+
+
+      <button type="submit" style="width: 100%;" class="btn btn-success mt-3">Submit</button>
+    </form></div>
+    <div class="col-md-6 dox jim"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242230.38638991193!2d73.65208907756262!3d18.445128154849716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc29558b18043fd%3A0x948b89f48d561d3!2sPerfect%20Fitness%20Club!5e0!3m2!1sen!2sin!4v1682328068749!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+ </div>
+ 
+  <!-- footer starts -->
+
+  <footer class="bg-dark text-white p-5 text-left mt-5">
+    <p>All rights reserved for shwetesh patil &copy; 2023</p>
+  </footer>
+
+  <!-- footer ends -->
+
+
+
+
+
+
+    <!-- java scriptbootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
